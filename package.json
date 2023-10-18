@@ -1,0 +1,32 @@
+{
+  "name": "@cuberqaq/transfer-file-side",
+  "version": "1.0.1-pre",
+  "description": "Polyfill of transferFile API for ZeppOS 1.0/2.0/2.1 app-side",
+  "main": "index.js",
+  "scripts": {
+    "compile": "esbuild index.ts --outfile=index.js --format=esm --platform=browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuberQAQ/zepp-transfer-file-side.git"
+  },
+  "keywords": [
+    "zepp"
+  ],
+  "types": "index.d.ts",
+  "author": "CuberQAQ",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CuberQAQ/zepp-transfer-file-side/issues"
+  },
+  "homepage": "https://github.com/CuberQAQ/zepp-transfer-file-side#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@zeppos/device-types": "^3.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@cuberqaq/fs-side": "^1.0.2",
+    "@cuberqaq/path-polyfill": "^1.0.0"
+  }
+}
